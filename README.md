@@ -84,7 +84,7 @@ python detector.py --video videos/sample.mp4
 
 ⸻
 
-## 📜 License**
+## 📜 License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
