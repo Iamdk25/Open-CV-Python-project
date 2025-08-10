@@ -92,8 +92,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## 👨‍💻 Author
 
-## 👨‍💻 Author
-
 **Divyarajsinh Karmariya**  
 💼 Computer Science Student @ University of South Florida  
 🔗 [Portfolio](https://iamdk25.github.io/3d_personal_portfolio/) • 🧠 [GitHub](https://github.com/Iamdk25) • 💼 [LinkedIn](https://www.linkedin.com/in/dkarmariya/)
