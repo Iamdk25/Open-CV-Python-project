@@ -1,48 +1,105 @@
-# OpenCV Python Project
+# 🎯 Python-Based Object Detector using OpenCV
 
-Submitted by: Divyarajsinh Karmariya
+A **Python-based object detection** application for images and videos using the **OpenCV Deep Neural Networks (DNN) module** with **GoogLeNet** and **YOLOv3** for real-time, high-accuracy detection.  
+This project leverages **deep learning inference** to classify and detect objects with bounding boxes and probability scores, using pre-trained models on the **COCO dataset**.
 
-*A python-based object detector for images and videos using the OpenCV Deep Neural Networks (DNN) module and Googlenet!*
-Using blobs (the equivalent of tensors in other frameworks), and leveraging YOLOv3 for custom object detection.
+---
 
-Time spent: 4 hours spent in total
+## 🧠 Features
 
-## Required Features
+- 🖼 **Image Object Detection** – Detects multiple objects in an image and displays their bounding boxes with confidence scores.  
+- 🎥 **Video Object Detection** – Detects objects frame-by-frame with probability scores.  
+- 🧮 **Color Channel Analysis** – Displays different color channels from the image.  
+- ⚡ **YOLOv3 Neural Network** – Divides images into regions and predicts bounding boxes and class probabilities for each region.  
+- 📦 **Pre-Trained Models** – Uses GoogLeNet & YOLOv3 models trained on the COCO dataset.  
 
-The following **required** functionality is completed:
+---
 
-- [ X ] Detects objects in an image and, also displays the different color channels.
-- [ X ] Detects objects within videos and shows the probability of the object.
-- [ X ]Using YOLOv3 (You Only Look Once) neural network trained on COCO dataset.
-- [ X ] YOLO divides images into regions and predicts bounding boxes and probability for each region.
- 
+## 🛠 Tech Stack
 
+| Component         | Technology |
+|------------------|------------|
+| **Language**     | Python |
+| **Core Library** | OpenCV |
+| **Deep Learning** | OpenCV DNN module |
+| **Models Used**  | GoogLeNet, YOLOv3 |
+| **Dataset**      | COCO dataset |
 
-I came across various challenges while building this project.
-- [ X ] Understanding the OpenCV neural network and other pre-trained models and their algorithms for detecting objects.
-- [ X ] Debugging the code while determining important information within the image or video file.
-- [ X ] Classifying images using inference and video classification
+---
 
-*Learning Objectives*
-- Deep learning for OpenCV
-- Viewing images and video in OpenCV
-- Working with blobs in the dnn module
-- Image classification
-- Video classification
-- YOLOv3
+## 📚 Learning Objectives
 
-*Skills covered*
-- Machine Learning
-- Deep Learning
-- OpenCV
+- Deep learning for OpenCV  
+- Viewing images and videos in OpenCV  
+- Working with **blobs** in the DNN module  
+- Image classification & video classification  
+- YOLOv3-based object detection  
 
-  
-## License
+---
 
-    Copyright 2024 Divyarajsinh Karmariya
+## 🗂 Folder Structure
+```plaintext
+/opencv-object-detector
+│
+├── /models            # Pre-trained YOLOv3 & GoogLeNet models
+├── /images            # Sample images for detection
+├── /videos            # Sample videos for detection
+├── detector.py        # Main Python script for object detection
+├── requirements.txt   # Python dependencies
+└── README.md
+```
+## 🚀 Getting Started
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+**1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/Iamdk25/opencv-object-detector.git
+cd opencv-object-detector
+```
+**2️⃣ Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+**3️⃣ Download Pre-Trained Models**
+	•	YOLOv3 Weights
+	•	YOLOv3 Config
+	•	GoogLeNet pre-trained model from the OpenCV model zoo
+
+Place these files inside the /models directory.
+
+**4️⃣ Run Object Detection on an Image**
+```bash
+python detector.py --image images/sample.jpg
+```
+**5️⃣ Run Object Detection on a Video**
+```bash
+python detector.py --video videos/sample.mp4
+```
+
+## 🏆 Completed Functionality
+	•	✅ Detect objects in images & display color channels
+	•	✅ Detect objects in videos with probability scores
+	•	✅ YOLOv3-based custom object detection
+	•	✅ Bounding box & confidence prediction per region
+	•	✅ Inference-based classification for images & videos
+
+⸻
+
+## 📜 License**
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+⸻
+
+## 👨‍💻 Author
+
+## 👨‍💻 Author
+
+**Divyarajsinh Karmariya**  
+💼 Computer Science Student @ University of South Florida  
+🔗 [Portfolio](https://iamdk25.github.io/3d_personal_portfolio/) • 🧠 [GitHub](https://github.com/Iamdk25) • 💼 [LinkedIn](https://www.linkedin.com/in/dkarmariya/)
+
+[![GitHub stars](https://img.shields.io/github/stars/Iamdk25/Open-CV-Python-project?style=social)](https://github.com/Iamdk25/Open-CV-Python-project/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Iamdk25/Open-CV-Python-project?style=social)](https://github.com/Iamdk25/Open-CV-Python-project/network/members)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Iamdk25/Open-CV-Python-project)](https://github.com/Iamdk25/Open-CV-Python-project/commits/main)
+![GitHub top language](https://img.shields.io/github/languages/top/Iamdk25/Open-CV-Python-project)
+![License](https://img.shields.io/github/license/Iamdk25/Open-CV-Python-project)
